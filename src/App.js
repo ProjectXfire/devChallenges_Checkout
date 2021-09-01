@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header, Container, Checkout } from "./style";
+// Providers
+import { useForm } from "react-hook-form";
+// Components
+import { Contact } from "./components/contact";
+import { Items } from "./components/items";
 
 function App() {
+  const {
+    register,
+    handleSubmit,
+    getValues,
+    formState: { errors },
+  } = useForm();
+
+  const saveData = () => {
+    console.log(getValues());
+    alert("Successful purchase");
+    window.location.reload();
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Header>Checkout</Header>
+        <Checkout>
+          <Contact
+            saveData={saveData}
+            register={register}
+            handleSubmit={handleSubmit}
+            errors={errors}
+          />
+          <Items />
+        </Checkout>
+      </Container>
     </div>
   );
 }
