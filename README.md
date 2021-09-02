@@ -1,3 +1,48 @@
+<!-- Please update value in the {}  -->
+
+<h1 align="center">Checkout Page</h1>
+
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://admiring-fermat-5cdbf0.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/ProjectXfire/devChallenges_Recipe_page">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+      Challenge
+    </a>
+  </h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [How to use](#how-to-use)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+This page show a checkout form where you can fill your personal data and buy two products with the quantity that you require. After that you can submit the form and each field will be valited and if all are correct, will display a successfull message, and other case, each field will turn in red, this mean that those fields are empty.
+When you select the quantity, it will show the total sum according to the price.
+
+### Built With
+
+- [React]
+
+## How To Use
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

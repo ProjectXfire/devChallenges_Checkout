@@ -28,6 +28,7 @@ export const Title = styled.div`
 export const Checkout = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 20px 0;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     & > div:nth-child(1) {
@@ -154,5 +155,15 @@ export const Button = styled.button`
   }
   &:active {
     transform: scale(0.9);
+  }
+`;
+
+export const Footer = styled.footer`
+  color: #eeeeee;
+  padding-bottom: 2vh;
+  font-size: 0.8rem;
+  text-align: center;
+  & strong {
+    text-decoration: underline;
   }
 `;

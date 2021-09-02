@@ -1,9 +1,11 @@
-import { Header, Container, Checkout } from "./style";
 // Providers
 import { useForm } from "react-hook-form";
+// Styles
+import { Header, Container, Checkout } from "./style";
 // Components
 import { Contact } from "./components/contact";
 import { Items } from "./components/items";
+import { FooterComponent } from "./components/footer";
 
 function App() {
   const {
@@ -32,6 +34,7 @@ function App() {
           />
           <Items />
         </Checkout>
+        <FooterComponent />
       </Container>
     </div>
   );
