@@ -28,6 +28,7 @@
 
 - [Overview](#overview)
 - [Built With](#built-with)
+- [External tools](#External-tools)
 - [How to use](#how-to-use)
 
 <!-- OVERVIEW -->
@@ -40,6 +41,11 @@ When you select the quantity, it will show the total sum according to the price.
 ### Built With
 
 - [React]
+
+## External Tools
+
+- [React-Hook-Form]
+- [Styled-Components]
 
 ## How To Use
 
